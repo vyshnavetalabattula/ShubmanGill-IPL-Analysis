@@ -4,7 +4,22 @@ import matplotlib.pyplot as plt
 from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 P, OUT = sys.argv[1], sys.argv[2]
 p = pd.read_csv(P, parse_dates=["StartDate"]); y = p.actual
-models = ["Historical mean (baseline)","Linear Regression (6 feats)","Ridge (all feats, extra)","Random Forest","GradientBoosting (XGBoost substitute)"]
+models = [
+    "Historical mean (baseline)",
+    "Linear Regression (6 feats)",
+    "Ridge (all feats, extra)",
+    "Random Forest"
+]
+
+# Automatically identify the boosting model
+boost_models = [
+    col for col in p.columns
+    if "boost" in col.lower() or "xgboost" in col.lower()
+]
+
+models.extend(boost_models)
+
+print("Models being evaluated:", models)
 rows=[]
 for m in models:
     e=p[m]-y

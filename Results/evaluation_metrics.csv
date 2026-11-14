@@ -1,0 +1,6 @@
+model,MAE,RMSE,R2,bias(mean err),"corr(actual,pred)",pred_std,within_15_runs
+Historical mean (baseline),28.788,36.297,-0.162,-12.494,-0.068,3.457,0.283
+Linear Regression (6 feats),32.634,38.516,-0.308,4.96,-0.13,14.335,0.217
+"Ridge (all feats, extra)",30.569,36.004,-0.143,-3.378,0.047,14.136,0.239
+Random Forest,31.285,36.068,-0.147,-1.17,-0.052,11.346,0.261
+GradientBoosting (XGBoost substitute),32.494,38.669,-0.319,-0.505,-0.015,18.693,0.261

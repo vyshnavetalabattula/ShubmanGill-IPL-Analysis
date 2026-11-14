@@ -1,0 +1,4 @@
+model,mean_resid,std,skew,shapiro_p,lag1_autocorr,"corr(|resid|,pred)",p5,p50,p95
+Historical mean (baseline),12.49,34.46,0.51,0.02,-0.07,-0.03,-30.85,7.38,71.37
+"Ridge (all feats, extra)",3.38,36.24,0.09,0.21,-0.12,0.41,-52.53,0.61,56.23
+Random Forest,1.17,36.45,0.37,0.01,-0.03,0.29,-44.38,0.27,60.04

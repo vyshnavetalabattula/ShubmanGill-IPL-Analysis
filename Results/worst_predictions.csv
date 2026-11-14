@@ -1,0 +1,11 @@
+StartDate,Opposition,Ground,Home/Away,PitchReport,Batting_pos,OutType,actual,Random Forest,resid_RF,mean_abs_err_all
+2023-05-26,v MI,Ahmedabad,Home,Batting,2,Caught,129,56.0,73.0,82.3
+2023-05-21,v RCB,Bengaluru,Away,Batting,2,NotOut,104,32.3,71.7,69.0
+2023-05-15,v SRH,Ahmedabad,Home,Batting,1,Caught,101,40.0,61.0,62.4
+2024-05-10,v CSK,Ahmedabad,Home,Batting,2,Caught,104,47.0,57.0,61.5
+2025-04-21,v KKR,Eden Gardens,Away,Batting,2,Caught,90,34.2,55.8,55.7
+2023-05-07,v LSG,Ahmedabad,Home,Batting,2,NotOut,94,43.6,50.4,55.2
+2025-04-28,v RR,Jaipur,Away,Batting,2,Caught,84,28.9,55.1,51.7
+2025-05-18,v DC,Delhi,Away,Batting,2,NotOut,93,56.5,36.5,47.0
+2025-05-30,v MI,New Chandigarh,Neutral,Batting,2,LBW,1,46.8,-45.8,46.1
+2024-04-04,v Punjab Kings,Ahmedabad,Home,Batting,2,NotOut,89,45.8,43.2,45.5

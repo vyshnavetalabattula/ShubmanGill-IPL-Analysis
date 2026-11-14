@@ -125,6 +125,6 @@ Some scripts save charts to the output directory. Move or copy final figures int
 ESPNcricinfo was used as a reference source when compiling the player-level match dataset. This is an independent educational analysis and is not affiliated with or endorsed by ESPNcricinfo or the IPL.
 
 ## Author
-**Vyshnave Talabattula**
+**Talabattula Sree Varaha Vyshnave**
 
 GitHub: https://github.com/vyshnavetalabattula

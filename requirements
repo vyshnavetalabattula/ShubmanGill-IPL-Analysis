@@ -1,0 +1,9 @@
+
+numpy
+pandas
+scikit-learn
+matplotlib>=3.8
+scipy
+openpyxl
+streamlit
+pytest
